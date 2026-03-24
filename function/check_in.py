@@ -74,7 +74,7 @@ def get_listening_classes_and_sign(filtered_courses: list):
                         "time": get_now(),
                         "student": name,
                         "status": status,
-                        "url": "https://changjiang.yuketang.cn/m/v2/lesson/student/" + str(lesson_id)
+                        "url":"https://yuketang.cn/m/v2/lesson/student/" + str(lesson_id)
                     }
                     write_log(log_file_name, new_log)
                 else:
@@ -168,7 +168,7 @@ def check_in_on_latest(check_num=1):
                     "time": get_now(),
                     "student": name,
                     "status": status,
-                    "url": "https://changjiang.yuketang.cn/m/v2/lesson/student/" + str(courseware_id)
+                    "url":"https://yuketang.cn/m/v2/lesson/student/" + str(courseware_id)
                 }
                 write_log(log_file_name, new_log)
             else:
