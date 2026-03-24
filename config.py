@@ -2,7 +2,7 @@ import os
 import re
 from util.file import read
 
-host = "https://changjiang.yuketang.cn/"
+host = "https://yuketang.cn/"
 
 api = {
     # 获取收到的消息
@@ -22,7 +22,7 @@ api = {
     # 获取PPT
     "get_ppt": "api/v3/lesson/presentation/fetch?presentation_id={}",
     # websocket
-    "websocket": "wss://changjiang.yuketang.cn/wsapp/",
+    "websocket": "wss://yuketang.cn/wsapp/",
     # 答题
     "answer": "api/v3/lesson/problem/answer"
 }
